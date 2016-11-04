@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Pioneer Music</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_nowplaying">Now Playing</string>
+    <string name="btn_explore">Explore!</string>
+    <string name="btn_djs">My DJ\'s</string>
+    <string name="btn_mysets">My Sets</string>
+    <string name="nowplayingtext">
+        This screen will display what is currently playing, as well as display options suck as next song, pause and so on.
+        We will have to recall the current song playing, as well as send intents for the different buttons clicked.
+
+        We will be using the mediaplayer() class here.
+    </string>
+    <string name="mysetstext">This screen will display music sets this DJ had created. This will have to pull data from an outside
+    resource and diplay them. we will have to figure out a way to store and pull external data perhaps through .sqlite()</string>
+    <string name="exploretext">This will allow users to search for sets made by other dj\'s. This will make us have to have a search
+    mechanism. This will be searching and pulling from a database, also adding filters in. </string>
+    <string name="djstext">This area will display the users favorite dj\'s and their new sets. </string>
+</resources>
